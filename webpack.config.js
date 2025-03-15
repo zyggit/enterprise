@@ -31,7 +31,7 @@ module.exports = {
   },
   devServer: {
     port: 3124,
-    allowedHosts: ['all']
+    allowedHosts: ['all', '.alibaba-inc.com']
   },
   plugins: [
     new HtmlWebpackPlugin({
